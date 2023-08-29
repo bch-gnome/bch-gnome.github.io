@@ -1,0 +1,12 @@
+{
+  "url" : "https://voicecollab.ai/fhir/genomics/ImplementationGuide/konglab.fhir.vbai.genomics",
+  "name" : "VoiceBiomarkerforAIgenomics",
+  "package-id" : "konglab.fhir.vbai.genomics",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 29 Aug, 2023 12:49:28 +0000",
+  "errs" : 0,
+  "warnings" : 15,
+  "hints" : 1,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)"
+}

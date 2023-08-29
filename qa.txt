@@ -1,0 +1,31 @@
+﻿VoiceBiomarkerforAIgenomics : Validation Results
+=========================================
+
+err = 0, warn = 15, info = 1
+IG Publisher Version: 1.4.1
+Generated Tue Aug 29 12:51:15 UTC 2023. FHIR version 4.0.1 for konglab.fhir.vbai.genomics#0.1.0 (canonical = https://voicecollab.ai/fhir/genomics)
+ Build Errors : 0 / 4 / 0
+ /home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/ImplementationGuide-konglab.fhir.vbai.genomics : 0 / 0 / 1
+ /home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant : 0 / 9 / 2
+ /home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-fhir-vrs : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-konglab.fhir.vbai.genomics.json ==
+== fsh-generated/resources/StructureDefinition-VBAIVariant.json ==
+INFORMATION: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[20].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[30].binding: The valueSet reference http://loinc.org/vs/LL1971-2 on element Observation.value[x] could not be resolved
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[35].binding: The valueSet reference http://loinc.org/vs/LL4048-6 on element Observation.method could not be resolved
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[91].binding: The valueSet reference http://loinc.org/vs/LL1040-6 on element Observation.component.value[x] could not be resolved
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[172].binding: The valueSet reference http://loinc.org/vs/LL5323-2 on element Observation.component.value[x] could not be resolved
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[208].binding: The valueSet reference http://loinc.org/vs/LL378-1 on element Observation.component.value[x] could not be resolved
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[242].binding: The valueSet reference http://loinc.org/vs/LL381-5 on element Observation.component.value[x] could not be resolved
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[269].binding: The valueSet reference http://loinc.org/vs/LL2938-0 on element Observation.component.value[x] could not be resolved
+WARNING: StructureDefinition/VBAIVariant: StructureDefinition.snapshot.element[287].binding: The valueSet reference http://loinc.org/vs/LL380-7 on element Observation.component.value[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'https://voicecollab.ai/fhir/genomics/StructureDefinition/VBAIVariant'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-fhir-vrs.json ==
+WARNING: StructureDefinition/fhir-vrs: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://voicecollab.ai/fhir/genomics/StructureDefinition/fhir-vrs'): The Implementation Guide contains no examples for this extension

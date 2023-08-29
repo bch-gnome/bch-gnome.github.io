@@ -1,0 +1,19 @@
+﻿/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL1971-2 on element Observation.value[x] could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL4048-6 on element Observation.method could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL1040-6 on element Observation.component.value[x] could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL5323-2 on element Observation.component.value[x] could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL378-1 on element Observation.component.value[x] could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL381-5 on element Observation.component.value[x] could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL2938-0 on element Observation.component.value[x] could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The valueSet reference http://loinc.org/vs/LL380-7 on element Observation.component.value[x] could not be resolved (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-VBAIVariant.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-fhir-vrs.json: line 0, col 0, Warning - Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
+/home/ikarus97/vbai-fhir-genomics/fsh-generated/resources/StructureDefinition-fhir-vrs.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+
+VoiceBiomarkerforAIgenomics : Validation Results
+=========================================
+
+err = 0, warn = 15, info = 1
+IG Publisher Version: 1.4.1
+Generated Tue Aug 29 12:51:15 UTC 2023. FHIR version 4.0.1 for konglab.fhir.vbai.genomics#0.1.0 (canonical = https://voicecollab.ai/fhir/genomics)

@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "konglab.fhir.vbai.genomics",
+    "type" : "ImplementationGuide",
+    "url" : "https://voicecollab.ai/fhir/genomics/ImplementationGuide/konglab.fhir.vbai.genomics",
+    "version" : "0.1.0",
+    "name" : "VoiceBiomarkerforAIgenomics"
+  },
+  {
+    "id" : "VBAIVariant",
+    "type" : "StructureDefinition",
+    "url" : "https://voicecollab.ai/fhir/genomics/StructureDefinition/VBAIVariant",
+    "version" : "0.1.0",
+    "name" : "VBAIVariant"
+  },
+  {
+    "id" : "fhir-vrs",
+    "type" : "StructureDefinition",
+    "url" : "https://voicecollab.ai/fhir/genomics/StructureDefinition/fhir-vrs",
+    "version" : "0.1.0",
+    "name" : "VRS"
+  }
+]

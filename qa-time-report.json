@@ -1,0 +1,189 @@
+{
+  "date" : "Tue, 29 Aug, 2023 12:49:28 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-konglab.fhir.vbai.genomics.json",
+      "size" : 2069,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 1092
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 54,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 1039
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 2423
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 86,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 87,
+          "length" : 206
+        },
+        {
+          "activity" : "generate2",
+          "start" : 91,
+          "length" : 298
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 128,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 142,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-fhir-vrs.json",
+      "size" : 1024,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 37,
+          "length" : 93
+        },
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 170
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 38,
+          "length" : 348
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 54,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 364
+        },
+        {
+          "activity" : "validate",
+          "start" : 70,
+          "length" : 2008
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 86,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 86,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 87,
+          "length" : 81
+        },
+        {
+          "activity" : "generate2",
+          "start" : 91,
+          "length" : 2290
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 128,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-VBAIVariant.json",
+      "size" : 1768,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 37,
+          "length" : 104
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 180
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 39,
+          "length" : 15187
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 15063
+        },
+        {
+          "activity" : "validate",
+          "start" : 72,
+          "length" : 10685
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 86,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 86,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 87,
+          "length" : 2449
+        },
+        {
+          "activity" : "generate2",
+          "start" : 93,
+          "length" : 16716
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 128,
+          "length" : 78
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 142,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 142,
+          "length" : 6
+        }
+      ]
+    }
+  ]
+}
